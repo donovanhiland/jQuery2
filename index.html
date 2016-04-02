@@ -22,7 +22,21 @@
 	</section>
 	<!-- to-do main container -->
 	<section class="todo-main-container">
-		<div id="newList"></div>
+		<div class="progress-box">
+		<h3>New</h3>
+		<ul class="list-group" id="new"></ul>
+		</div>
+
+		<div class="progress-box">
+		<h3>In Progress</h3>
+		<ul class="list-group" id="inProgress"></ul>
+		</div>
+
+		<div class="progress-box">
+		<h3>Complete</h3>
+		<ul class="list-group" id="archivedList"></ul>
+		</div>
+
 	</section>
 
 	<!-- FORM -->
@@ -44,6 +58,6 @@
 	<!--jQuery-->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!--INclude your script file here -->
-
+	<script src="./apps/scripts/scripts.js"></script>
 </body>
 </html>
